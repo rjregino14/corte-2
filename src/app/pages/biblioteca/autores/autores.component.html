@@ -1,1 +1,10 @@
-<p>autores works!</p>
+<h1>{{titulo}}</h1>|
+<form>
+        <div class="form-group row">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Nombre</label>
+          <div class="col-sm-10">
+            <input type="text" [(ngModel)] = "nombre" class="form-control" name="inputPassword" placeholder="Nombre">
+          </div>
+        </div>
+      </form>
+      <button type="button" (click) = "saveForm()">enviar</button>
