@@ -1,1 +1,41 @@
-<p>editorial works!</p>
+<h1>{{titulo}}</h1>
+
+<form>
+    <div class="form-group row">
+      <label for="inputPassword" class="col-sm-2 col-form-label">Nombre de Editorial</label>
+      <div class="col-sm-10">
+        <input type="text" [(ngModel)] = "nombre_editorial" class="form-control" name="inputPassword" placeholder="Nombre de Editorial">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputPassword" class="col-sm-2 col-form-label">Direccion</label>
+      <div class="col-sm-10">
+        <input type="text" [(ngModel)] = "direccion" class="form-control" name="inputPassword" placeholder="Direccion">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputPassword" class="col-sm-2 col-form-label">Telefono</label>
+      <div class="col-sm-10">
+        <input type="text" [(ngModel)] = "telefono" class="form-control" name="inputPassword" placeholder="telefono">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputPassword" class="col-sm-2 col-form-label">Email de Editorial</label>
+      <div class="col-sm-10">
+        <input type="text" [(ngModel)] = "fec_n" class="email_editorial" name="inputPassword" placeholder="Email de Editorial">
+      </div>
+    </div>
+    <div class="form-group row">
+        <label for="inputPassword" class="col-sm-2 col-form-label">Web de Editorial</label>
+        <div class="col-sm-10">
+          <input type="text" [(ngModel)] = "web_editorial" class="email_editorial" name="inputPassword" placeholder="Web de Editorial">
+        </div>
+      </div>
+  </form>
+  <button type="button" (click) = "saveForm()">enviar</button>
+
+
+
+
+
+

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-existencia',
@@ -7,7 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExistenciaComponent implements OnInit {
 
-  constructor() { }
+
+  public existenciaForm : FormGroup;
+
+  constructor(protected fb:FormBuilder) { }
 
   ngOnInit() {
   }

@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EditorialComponent implements OnInit {
 
+  public titulo = "Formularios de Editorial";
+  public nombre_editorial : String;
+  public direccion : String;
+  public telefono :String;
+  public email_editorial : String;
+  public web_editorial : String;
+
   constructor() { }
 
   ngOnInit() {

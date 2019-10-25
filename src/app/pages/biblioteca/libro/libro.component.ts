@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LibroComponent implements OnInit {
 
+  public titulo = "Formularios de Libros";
+
   constructor() { }
 
   ngOnInit() {
